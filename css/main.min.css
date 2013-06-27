@@ -1124,3 +1124,4 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-weibo:before{content:"\f18a"}
 .icon-renren:before{content:"\f18b"}
 .navbar-inner.secondary{min-height:40px;line-height:40px}.navbar-inner.secondary li{line-height:40px}
+@media only screen and (min-width:1441px){}@media only screen and (max-width:1279px) and (min-width:768px){}@media only screen and (max-width:767px){}@media screen and (orientation:landscape){}@media screen and (orientation:portrait){}
