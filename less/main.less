@@ -1,31 +1,76 @@
 /*!
- * Main.less 0.1.0
+ * Main.less 1.1.0
  *
  *
- * Includes all styles and Twitter-Bootstrap overrides style's rules
+ * Includes all styles and Twitter-Bootstrap 3 overrides style's rules
  */
 
 @import "bootstrap.less";
-@import "responsive.less";
 @import "font-awesome/font-awesome.less";
-@import "override.less";
+@import "overrides.less";
 
 
 // Responsive Rules
 
-@media only screen and (min-width: 1441px) {  }
 
-// Medium screens 
-@media only screen and (max-width: 1279px) and (min-width: 768px) {  }
 
-// Small screens 
-@media only screen and (max-width: 767px) {  }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
 
-// Landscape Orientation 
-@media screen and (orientation: landscape) {  }
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
 
-// Portrait Orientation 
-@media screen and (orientation: portrait) {  }
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
 
-// Touch Detection 
-.touch .your-class {  }
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

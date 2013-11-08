@@ -1,0 +1,57 @@
+/* iCheck plugin maisonacademia skin
+----------------------------------- */
+.icheckbox_maisonacademia,
+.iradio_maisonacademia {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    background: url('../images/icheck-skins/maisonacademia/maisonacademia.png') no-repeat;
+    border: none;
+    cursor: pointer;
+    float: left;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.icheckbox_maisonacademia {
+    background-position: 0 0;
+}
+    .icheckbox_maisonacademia.checked {
+        background-position: -18px 0;
+    }
+    .icheckbox_maisonacademia.disabled {
+        background-position: -36px 0;
+        cursor: default;
+    }
+    .icheckbox_maisonacademia.checked.disabled {
+        background-position: -54px 0;
+    }
+
+.iradio_maisonacademia {
+    background-position: -72px 0;
+}
+    .iradio_maisonacademia.checked {
+        background-position: -90px 0;
+    }
+    .iradio_maisonacademia.disabled {
+        background-position: -108px 0;
+        cursor: default;
+    }
+    .iradio_maisonacademia.checked.disabled {
+        background-position: -126px 0;
+    }
+
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_maisonacademia,
+    .iradio_maisonacademia {
+        background-image: url(maisonacademia@2x.png);
+        -webkit-background-size: 144px 19px;
+        background-size: 144px 19px;
+    }
+}
